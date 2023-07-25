@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <script>
+    <!-- <script>
         tailwind.config = {
             theme: {
                 extend: {
@@ -21,7 +21,7 @@
                 }
             }
         }
-    </script>
+    </script> -->
 
 </head>
 
@@ -79,8 +79,9 @@
 
         <!-- hero section -->
         <section>
+            <!-- <div>
             <div class="hero min-h-[calc{100vh-66px}] bg-hero-bg">
-                <!-- <div class="hero-bg"><img src="images/yellow-bg.jpg" alt=""></div> -->
+                <div class="hero-bg"><img src="./images/yellow-bg.jpg" alt=""></div>
             </div>
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
@@ -91,6 +92,19 @@
                     <button class="btn btn-primary">Get Started</button>
                 </div>
             </div>
+            </div> -->
+            
+            <div>
+                 <div class="hero min-h-screen [calc{100vh-66px}]"  style="background-image: url(./images/yellow-bg.jpg);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn-primary">Get Started</button>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </section>
     </header>
@@ -221,7 +235,7 @@
             </div>
         </div>
     </section>
-        <!-- faq -->
+    <!-- faq -->
     <section class="max-w-screen-lg mx-auto px-8 md:px-16 lg:px-24 py-5 my-10 ">
         <div class="text-center bp-5">
             <h1 class="text-2xl md:text-4xl">Top Products</h1>
@@ -229,7 +243,7 @@
         </div>
         <div>
             <div class="collapse collapse-arrow bg-base-200 mb-2">
-                <input type="radio" name="my-accordion-2" checked="checked" /> 
+                <input type="radio" name="my-accordion-2" checked="checked" />
                 <div class="collapse-title text-xl font-medium">
                     How can I Purchase?
                 </div>
@@ -238,7 +252,7 @@
                 </div>
             </div>
             <div class="collapse collapse-arrow bg-base-200 mb-2">
-                <input type="radio" name="my-accordion-2" /> 
+                <input type="radio" name="my-accordion-2" />
                 <div class="collapse-title text-xl font-medium">
                     Click to open this one and close others
                 </div>
@@ -247,7 +261,7 @@
                 </div>
             </div>
             <div class="collapse collapse-arrow bg-base-200 mb-2">
-                 <input type="radio" name="my-accordion-2" /> 
+                <input type="radio" name="my-accordion-2" />
                 <div class="collapse-title text-xl font-medium">
                     Click to open this one and close others
                 </div>
@@ -261,26 +275,26 @@
     <footer>
         <footer class="footer p-10 bg-neutral text-neutral-content">
             <div>
-              <span class="footer-title">Services</span> 
-              <a class="link link-hover">Branding</a>
-              <a class="link link-hover">Design</a>
-              <a class="link link-hover">Marketing</a>
-              <a class="link link-hover">Advertisement</a>
-            </div> 
-            <div>
-              <span class="footer-title">Company</span> 
-              <a class="link link-hover">About us</a>
-              <a class="link link-hover">Contact</a>
-              <a class="link link-hover">Jobs</a>
-              <a class="link link-hover">Press kit</a>
-            </div> 
-            <div>
-              <span class="footer-title">Legal</span> 
-              <a class="link link-hover">Terms of use</a>
-              <a class="link link-hover">Privacy policy</a>
-              <a class="link link-hover">Cookie policy</a>
+                <span class="footer-title">Services</span>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
             </div>
-          </footer>
+            <div>
+                <span class="footer-title">Company</span>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </div>
+            <div>
+                <span class="footer-title">Legal</span>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </div>
+        </footer>
     </footer>
 </body>
 
